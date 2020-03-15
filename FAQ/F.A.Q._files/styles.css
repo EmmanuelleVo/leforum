@@ -1,0 +1,275 @@
+/* AlgoWin 2009 - Web Pack */
+/* This product are developped by Algo'Rythmes.com */
+/* css/style.css */
+
+body {
+    background-color: #1B1C20;
+    margin: 0;
+    font-size: 16px;
+    color: white;
+	font-family: 'BrandonGrotesqueBlack', Tahoma;
+}
+
+@font-face {
+    font-family: 'BrandonGrotesqueBlack';
+    src: url('Brandon_blk.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'BrandonGrotesqueBold';
+    src: url('Brandon_bld.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'BrandonGrotesqueLight';
+    src: url('Brandon_light.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'BrandonGrotesqueMedium';
+    src: url('Brandon_med.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'BrandonGrotesqueThin';
+    src: url('Brandon_thin.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'BrandonGrotesqueRegular';
+    src: url('Brandon_reg.otf'); /*URL to font*/
+}
+
+img.Logo {
+    width: 446px;
+    height: 160px;
+}
+
+
+header {
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home {
+    //width: 30%;
+}
+
+nav {
+    width: 70%;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 5px;
+
+}
+
+nav li a {
+    font-family: 'BrandonGrotesqueMedium', Tahoma;
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+    font-weight: normal;
+    flex: 1;
+    font-size: 16px;
+}
+
+
+
+
+hr {
+    top: -2px;
+    height: 1px;
+    background-color: #DEC187;
+    border: none;
+}
+
+
+/**   FAQ   **/
+
+
+h1 {
+    font-size: 2.125em; /*34px*/
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5em; /*24px*/
+    font-weight: bold;
+    text-transform: uppercase;
+	color: #DEC187;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.content li {
+	font-weight: bold;
+}
+
+li a {
+    font-weight: bold;
+    color: #DEC187;
+    text-decoration: underline;
+}
+
+.content li a:hover {
+    font-weight: bold;
+    color: #DEC187;
+    text-decoration: underline;
+}
+
+
+li p {
+    margin-left: 0.625em; /*10px*/
+	font-weight: normal;
+	margin-top: 1em;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 5em;
+}
+.logo {
+	width: 400px;
+	min-height: auto;
+}
+
+.copyright {
+    color: gray;
+}
+
+.copyright a {
+    color: gray;
+    font-weight: normal;
+}
+
+.copyright a:hover {
+    color: #DEC187;
+}
+
+
+/** FIN FAQ **/
+
+
+@-webkit-keyframes fading {
+    0% {
+        opacity: 0.2
+    }
+    10% {
+        opacity: 0.4
+    }
+    20% {
+        opacity: 0.6
+    }
+    30% {
+        opacity: 0.8
+    }
+    40% {
+        opacity: 1
+    }
+    50% {
+        opacity: 1
+    }
+    60% {
+        opacity: 1
+    }
+    70% {
+        opacity: 1
+    }
+    80% {
+        opacity: 0.75
+    }
+    90% {
+        opacity: 0.5
+    }
+    100% {
+        opacity: 0.25
+    }
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0.25
+    }
+    10% {
+        opacity: 0.5
+    }
+    20% {
+        opacity: 0.75
+    }
+    30% {
+        opacity: 1
+    }
+    40% {
+        opacity: 1
+    }
+    50% {
+        opacity: 1
+    }
+    60% {
+        opacity: 1
+    }
+    70% {
+        opacity: 1
+    }
+    80% {
+        opacity: 0.75
+    }
+    90% {
+        opacity: 0.5
+    }
+    100% {
+        opacity: 0.25
+    }
+}
+
+@-webkit-keyframes fading_cta {
+    0% {
+        opacity: 0.2
+    }
+    25% {
+        opacity: 0.4
+    }
+    50% {
+        opacity: 0.6
+    }
+    75% {
+        opacity: 0.8
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fading_cta {
+    0% {
+        opacity: 0.2
+    }
+    25% {
+        opacity: 0.4
+    }
+    50% {
+        opacity: 0.6
+    }
+    75% {
+        opacity: 0.8
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+
+
